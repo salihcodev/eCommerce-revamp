@@ -1,3 +1,4 @@
+import HeroSection from "./_comps/app/landing-comps/hero-section/hero-section.comp";
 import AppHeader from "./_comps/shared/app-header/app-header.comp";
 
 export default function Home() {
@@ -5,7 +6,8 @@ export default function Home() {
     <>
       <AppHeader />
       <main className="page">
-        <div className="container lg mx-auto">HOME</div>
+        <HeroSection />
+        <div className="container lg mx-auto"></div>
       </main>
     </>
   );

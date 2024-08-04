@@ -1,4 +1,5 @@
 import React from "react";
+import AppHeader from "../_comps/shared/app-header/app-header.comp";
 
 export const metadata = {
   title: "Next.js",
@@ -12,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <>
-      <h1>auth</h1>
+      <AppHeader type="authy" />
       {children}
     </>
   );

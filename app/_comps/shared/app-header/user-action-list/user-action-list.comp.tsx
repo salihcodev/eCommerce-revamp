@@ -16,7 +16,7 @@ const UserActionList: FC<IUserActionList> = ({ listTitle, path, icon }) => {
   };
 
   return (
-    <div className="relative inline-block text-left flex-center group">
+    <div className="relative inline-block text-left flex-center group z-10">
       <div>
         <Link
           href={`/${path}`}
