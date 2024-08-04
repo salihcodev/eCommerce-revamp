@@ -52,10 +52,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 │   │   └── signup
 │   │       └── page.tsx
 │   │
-│   ├── combined.sass
-│   ├── favicon.ico
-│   ├── globals.sass
-│   ├── layout.tsx
 │   ├── (non-dash-pages)
 │   │   ├── contact
 │   │   │   └── page.tsx
@@ -64,6 +60,10 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 │   │       └── cart
 │   │           └── page.tsx
 │   └── page.tsx
+│   ├── combined.sass
+│   ├── favicon.ico
+│   ├── globals.sass
+│   └── layout.tsx
 │
 ├── public
 │   ├── fullcart-temp-img.svg
