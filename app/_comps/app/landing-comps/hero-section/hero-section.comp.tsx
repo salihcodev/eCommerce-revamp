@@ -21,12 +21,12 @@ const HeroSection: React.FC = () => {
   };
 
   return (
-    <section className="relative bg-blue-600 text-white py-20">
+    <section className="relative bg-lime-600 text-white py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="relative">
           <button
             onClick={prevSlide}
-            className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-blue-700 p-2 rounded-full"
+            className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-lime-700 p-2 rounded-full"
           >
             <BsChevronLeft className="h-6 w-6 text-white" />
           </button>
@@ -35,14 +35,14 @@ const HeroSection: React.FC = () => {
           </h2>
           <button
             onClick={nextSlide}
-            className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-blue-700 p-2 rounded-full"
+            className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-lime-700 p-2 rounded-full"
           >
             <BsChevronRight className="h-6 w-6 text-white" />
           </button>
         </div>
         <a
           href="#features"
-          className="mt-8 inline-block bg-white text-blue-600 font-semibold py-3 px-6 rounded"
+          className="mt-8 inline-block bg-white text-lime-600 font-semibold py-3 px-6 rounded"
         >
           Get Started
         </a>
