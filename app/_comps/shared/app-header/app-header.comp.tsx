@@ -61,8 +61,8 @@ const AppHeader: FC<{ type?: `expanded` | `mini` | `authy` }> = ({
                 />
                 <UserActionList
                   icon={FiHeart}
-                  path="wisthlist"
-                  listTitle="Wisthlist"
+                  path="wishlist"
+                  listTitle="Wishlist"
                 />
                 <UserActionList
                   icon={FiPackage}
